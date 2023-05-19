@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="450.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.proyecto_final.EstadisticasBulls">
+   <children>
+      <Label layoutX="247.0" layoutY="49.0" text="BULLS VS HORNETS" />
+      <Label layoutX="38.0" layoutY="89.0" text="GANADOR" />
+      <Label layoutX="136.0" layoutY="89.0" text="MEJOR JUGADOR" />
+      <Label layoutX="257.0" layoutY="89.0" text="PUNTOS " />
+      <Label layoutX="334.0" layoutY="89.0" text="TAPONES " />
+      <Label layoutX="419.0" layoutY="89.0" text="REBOTES" />
+      <TextField fx:id="SalidaGanadorAnterior" layoutX="32.0" layoutY="119.0" prefHeight="25.0" prefWidth="70.0" />
+      <TextField fx:id="SalidaJugadorAnterior" layoutX="130.0" layoutY="119.0" prefHeight="25.0" prefWidth="106.0" />
+      <TextField fx:id="SalidaPuntosAnterior" layoutX="257.0" layoutY="119.0" prefHeight="25.0" prefWidth="41.0" />
+      <TextField fx:id="SalidaTaponesAnterior" layoutX="340.0" layoutY="119.0" prefHeight="25.0" prefWidth="41.0" />
+      <TextField fx:id="SalidaRebotesAnterior" layoutX="423.0" layoutY="119.0" prefHeight="25.0" prefWidth="41.0" />
+      <Button fx:id="BotonUltimos2encuentros" layoutX="221.0" layoutY="169.0" mnemonicParsing="false" onAction="#PulsarBotonUtlimos2encuentros" text="ÚLTIMOS DOS ENCUENTROS" />
+      <Button fx:id="BotonVerEstadisticas" layoutX="32.0" layoutY="53.0" mnemonicParsing="false" onAction="#PulsarBotonVerEstadisticas" text="VER ESTADÍSTICAS" />
+      <Button fx:id="BotonVolverAnteriores" layoutX="518.0" layoutY="107.0" mnemonicParsing="false" onAction="#PulsarBotonVolverAnteriores" text="VOLVER" />
+      <Label layoutX="38.0" layoutY="225.0" text="GANADOR" />
+      <TextField fx:id="SalidaGanadorAnterior2_1" layoutX="32.0" layoutY="262.0" prefHeight="25.0" prefWidth="70.0" />
+      <Label layoutX="136.0" layoutY="225.0" text="MEJOR JUGADOR" />
+      <TextField fx:id="SalidaJugadorAnterior2_1" layoutX="136.0" layoutY="262.0" prefHeight="25.0" prefWidth="106.0" />
+      <Label layoutX="267.0" layoutY="225.0" text="PUNTOS " />
+      <TextField fx:id="SalidaPuntosAnterior2_1" layoutX="271.0" layoutY="262.0" prefHeight="25.0" prefWidth="41.0" />
+      <Label layoutX="340.0" layoutY="225.0" text="TAPONES " />
+      <TextField fx:id="SalidaTaponesAnterior2_1" layoutX="347.0" layoutY="262.0" prefHeight="25.0" prefWidth="41.0" />
+      <Label layoutX="429.0" layoutY="225.0" text="REBOTES" />
+      <TextField fx:id="SalidaRebotesAnterior2_1" layoutX="433.0" layoutY="262.0" prefHeight="25.0" prefWidth="41.0" />
+      <Label layoutX="512.0" layoutY="225.0" text="TEMPORADA" />
+      <TextField fx:id="SalidTemporadaAnterior2_11" layoutX="523.0" layoutY="262.0" prefHeight="25.0" prefWidth="49.0" />
+      <Label layoutX="38.0" layoutY="317.0" text="GANADOR" />
+      <Label layoutX="136.0" layoutY="317.0" text="MEJOR JUGADOR" />
+      <Label layoutX="267.0" layoutY="317.0" text="PUNTOS " />
+      <Label layoutX="340.0" layoutY="317.0" text="TAPONES " />
+      <Label layoutX="430.0" layoutY="317.0" text="REBOTES" />
+      <Label layoutX="513.0" layoutY="317.0" text="TEMPORADA" />
+      <TextField fx:id="SalidaGanadorAnterior2_2" layoutX="32.0" layoutY="358.0" prefHeight="25.0" prefWidth="70.0" />
+      <TextField fx:id="SalidaJugadorAnterior2_2" layoutX="136.0" layoutY="358.0" prefHeight="25.0" prefWidth="106.0" />
+      <TextField fx:id="SalidaPuntosAnterior2_2" layoutX="271.0" layoutY="358.0" prefHeight="25.0" prefWidth="41.0" />
+      <TextField fx:id="SalidaTaponesAnterior2_2" layoutX="347.0" layoutY="358.0" prefHeight="25.0" prefWidth="41.0" />
+      <TextField fx:id="SalidaRebotesAnterior2_2" layoutX="434.0" layoutY="358.0" prefHeight="25.0" prefWidth="41.0" />
+      <TextField fx:id="SalidTemporadaAnterior2_2" layoutX="523.0" layoutY="358.0" prefHeight="25.0" prefWidth="49.0" />
+   </children>
+</AnchorPane>

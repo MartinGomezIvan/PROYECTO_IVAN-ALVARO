@@ -1,0 +1,33 @@
+.imagen{
+    -fx-background-image: url(./nbaProximo.jpg);
+    -fx-background-size: cover;
+     -fx-background-repeat: no-repeat;
+     -fx-background-position: center;
+}
+.nombres{
+    -fx-text-fill: white;
+}
+.TituloProximo{
+    -fx-text-fill: yellow;
+    -fx-underline: true;
+    -fx-font-size: 20px;
+
+}
+.imagenHoy{
+    -fx-background-image: url(./canastaHoy.jpg);
+    -fx-background-size: cover;
+     -fx-background-repeat: no-repeat;
+     -fx-background-position: center;
+}
+.nombresHoy{
+    -fx-text-fill: orange;
+}
+.imagenAnteriores{
+    -fx-background-image: url(./nba.jpg);
+    -fx-background-size: cover;
+     -fx-background-repeat: no-repeat;
+     -fx-background-position: center;
+}
+.nombresAnteriores{
+    -fx-text-fill: lightgreen;
+}
